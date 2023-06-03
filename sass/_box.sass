@@ -1,0 +1,48 @@
+.box
+  display: flex
+  &--header
+    width: 100%
+    justify-content: flex-end
+  &--form
+    background: var(--blue)
+    border-radius: var(--border-radius)
+    padding: 28px 40px 15px
+    align-items: center
+    flex-wrap: wrap
+    z-index: 2
+    position: relative
+  &--inputs
+    margin-right: 20px
+    width: 100%
+  &--radio
+    margin-top: 15px
+    align-items: center
+  &--submit
+    width: 90%
+  &--numbers
+    flex-wrap: wrap
+    justify-content: center
+    align-items: center
+    height: 100%
+    align-content: center
+  &--howitworks
+    flex-wrap: wrap
+  &--features
+    flex-wrap: wrap
+    align-items: flex-start
+    align-content: flex-start
+  &--prizes-text
+    margin-left: 20px
+  &--accordeon-item
+    flex-wrap: wrap
+    margin-top: 35px
+  &--accordeon-visible-part
+    width: 100%
+    align-items: center
+    & > *
+      cursor: pointer
+  &--accordeon-invisible-part
+    display: none
+    &.isVisible
+      display: flex
+

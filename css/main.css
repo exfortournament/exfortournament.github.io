@@ -232,6 +232,11 @@ button {
   align-items: flex-start;
   align-content: flex-start;
 }
+@media (max-width: 600px) {
+  .box--prizes {
+    width: 165px;
+  }
+}
 .box--prizes-text {
   margin-left: 20px;
 }
@@ -407,6 +412,17 @@ button {
 .row--prizes {
   flex-wrap: wrap;
 }
+@media (max-width: 400px) {
+  .row--prizes {
+    flex-wrap: nowrap;
+    overflow: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+}
 @media (max-width: 767px) {
   .row--features {
     flex-wrap: wrap;
@@ -485,14 +501,13 @@ button {
 @media (max-width: 600px) {
   .col--prizes {
     width: 50%;
+    display: flex;
+    justify-content: center;
   }
 }
 @media (max-width: 400px) {
   .col--prizes {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-left: -15px;
   }
 }
 
@@ -580,6 +595,11 @@ button {
   .section--accordeon {
     padding-top: 80px;
     padding-bottom: 70px;
+  }
+}
+@media (max-width: 400px) {
+  .section--accordeon {
+    padding-top: 40px;
   }
 }
 
@@ -725,7 +745,7 @@ h1, h2, h3 {
 }
 @media (max-width: 767px) {
   .text--features-heading {
-    font-size: 40px;
+    font-size: 35px;
   }
 }
 @media (max-width: 320px) {
@@ -764,7 +784,7 @@ h1, h2, h3 {
 }
 @media (max-width: 480px) {
   .text--prizes-heading {
-    font-size: 30px;
+    font-size: 27px;
   }
 }
 .text--prizes-small {
@@ -798,7 +818,7 @@ h1, h2, h3 {
 }
 @media (max-width: 480px) {
   .text--accordeon-heading {
-    font-size: 30px;
+    font-size: 27px;
   }
 }
 .text--accordeon-item-heading {

@@ -11,14 +11,32 @@
     flex-wrap: wrap
     z-index: 2
     position: relative
+    +m(md)
+      padding: 20px 20px 15px
+    +m(sm)
+      padding: 15px 20px 15px
+      margin: 0 -30px
+      width: 90%
+      margin: auto
+      max-width: 450px
+    +m(xs)
+      width: calc(100% + 16px)
+      margin-left: -8px
   &--inputs
     margin-right: 20px
     width: 100%
+    +m(sm)
+      flex-wrap: wrap
+      margin-right: 0
   &--radio
     margin-top: 15px
     align-items: center
   &--submit
     width: 90%
+    +m(md)
+      width: 100%
+    +m(sm)
+      flex-wrap: wrap
   &--numbers
     flex-wrap: wrap
     justify-content: center
@@ -26,6 +44,7 @@
     height: 100%
     align-content: center
   &--howitworks
+    //
     flex-wrap: wrap
   &--features
     flex-wrap: wrap
@@ -33,9 +52,13 @@
     align-content: flex-start
   &--prizes-text
     margin-left: 20px
+    +m(md)
+      margin-left: 10px
   &--accordeon-item
     flex-wrap: wrap
     margin-top: 35px
+    +m(xs)
+      margin-top: 20px
   &--accordeon-visible-part
     width: 100%
     align-items: center
@@ -45,4 +68,27 @@
     display: none
     &.isVisible
       display: flex
-
+  &--hamburger
+    width: 33px
+    flex-wrap: wrap
+    display: none
+    z-index: 10
+    +m(xs)
+      display: flex
+  &--nav
+    +m(xs)
+      display: none
+      &.isVisible
+        display: flex
+        position: fixed
+        align-items: flex-start
+        align-content: flex-start
+        justify-content: center
+        width: 100%
+        height: 100%
+        top: 0
+        left: 0
+        background: var(--dark)
+        z-index: 9
+        flex-wrap: wrap
+        padding-top: 70px

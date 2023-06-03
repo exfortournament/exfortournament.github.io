@@ -9,11 +9,21 @@ h1, h2, h3
     font-size: 85px
     line-height: 100%
     text-align: center
+    +m(lg)
+      font-size: 7vw
+    +m(sm)
+      font-size: 50px
+    +m(xs)
+      font-size: 40px
   &--hero-subheading
     font-size: 25px
     text-align: center
     font-weight: 700
     margin-top: 10px
+    +m(lg)
+      font-size: 2vw
+    +m(sm)
+      font-size: 14px
   &--checkbox
     font-size: 13px
     color: var(--grey-dark)
@@ -26,10 +36,15 @@ h1, h2, h3
     font-size: 55px
     text-align: center
     line-height: 100%
+    +m(sm)
+      font-size: 45px
   &--numbers-item-subheading
     font-size: 20px
     font-weight: 600
+    text-align: center
     margin-top: 10px
+    +m(sm)
+      font-size: 17px
   &--description-heading
     width: 100%
     font-weight: 700
@@ -38,17 +53,26 @@ h1, h2, h3
     line-height: 100%
     max-width: 850px
     margin: auto
+    +m(sm)
+      font-size: 40px
+    +m(xs)
+      font-size: 35px
   &--description-subheading
     font-size: 20px
     font-weight: 400
     margin-top: 20px
     text-align: center
     line-height: 125%
+    +m(sm)
+      font-size: 18px
+    +m(xs)
+      font-size: 16px
   &--howitworks-heading
     font-size: 50px
     font-weight: 700
     line-height: 125%
-    margin-bottom: 30px
+    +m(xs)
+      font-size: 40px
   &--howitworks-item-heading
     font-size: 30px
     font-weight: 800
@@ -65,6 +89,10 @@ h1, h2, h3
     line-height: 125%
     margin-bottom: 40px
     text-align: center
+    +m(sm)
+      font-size: 40px
+    +m(xxs)
+      font-size: 30px
   &--features-item-heading
     width: 100%
     font-weight: 700
@@ -86,6 +114,10 @@ h1, h2, h3
     background-size: 100%
     -webkit-background-clip: text
     -webkit-text-fill-color: transparent
+    +m(sm)
+      font-size: 35px
+    +m(xs)
+      font-size: 30px
   &--prizes-small
     color: var(--grey-dark)
     font-weight: 700
@@ -106,11 +138,21 @@ h1, h2, h3
     background-size: 100%
     -webkit-background-clip: text
     -webkit-text-fill-color: transparent
+    +m(sm)
+      font-size: 35px
+    +m(xs)
+      font-size: 30px
   &--accordeon-item-heading
     padding-left: 20px
-    line-height: 30px
+    line-height: 20px
+    +m(xs)
+      padding-left: 15px
   &--accordeon-item-subheading
     font-size: 17px
     line-height: 150%
     padding-left: 50px
     max-width: 800px
+    margin-top: 5px
+    margin-bottom: 10px
+    +m(xs)
+      padding-left: 45px

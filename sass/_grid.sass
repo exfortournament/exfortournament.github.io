@@ -1,21 +1,63 @@
 .row
   display: flex
   &--howitworks
+    //
     margin: 0 -15px
+    +m(lg)
+      flex-wrap: wrap
   &--numbers
      margin: 0 -50px
+     +m(lg)
+       margin: 0 -20px
+     +m(md)
+       flex-wrap: wrap
   &--prizes
+    //
     flex-wrap: wrap
-
+  &--features
+    +m(sm)
+      flex-wrap: wrap
 .col
   &--numbers
     width: calc(100% / 4)
     margin: 0 50px
+    +m(lg)
+      margin: 0 20px
+    +m(md)
+      width: calc(100% / 2 - 40px)
+      margin-top: 30px
+    +m(xs)
+      width: calc(100% / 1)
+      margin-top: 50px
+
   &--howitworks
     width: calc(100% / 5)
-    margin: 0 15px
+    margin: 30px 15px 0
+    +m(lg)
+      width: calc(100% / 3 - 30px)
+    +m(sm)
+      width: calc(100% / 2 - 30px)
+    +m(xs)
+      width: calc(100% / 1 - 30px)
   &--features
     width: calc(100% / 3)
+    +m(sm)
+      width: calc(100% / 1)
+    +m(xxs)
+      width: calc(100% + 50px)
+      margin-left: -25px
+      margin-right: -25px
   &--prizes
     width: calc(100% / 5)
     margin-top: 60px
+    +m(md)
+      width: calc(100% / 4)
+    +m(sm)
+      width: calc(100% / 3)
+    +m(prizes-sm)
+      width: calc(100% / 2)
+    +m(prizes-xs)
+      width: calc(100% / 1)
+      display: flex
+      justify-content: center
+      margin-left: -15px

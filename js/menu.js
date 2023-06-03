@@ -13,3 +13,11 @@ hamburger.addEventListener("click",function (event){
         body.style.removeProperty("margin-right")
     }
 })
+nav.addEventListener("click",function (event){
+    if (body.classList.contains("isNoScroll") ){
+        hamburger.classList.toggle("isActive")
+        nav.classList.toggle("isVisible")
+        body.classList.remove("isNoScroll")
+        body.style.removeProperty("margin-right")
+    }
+})

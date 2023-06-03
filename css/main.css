@@ -274,12 +274,16 @@ button {
 .row--howitworks {
   margin: 0 -15px;
 }
+.row--numbers {
+  margin: 0 -50px;
+}
 .row--prizes {
   flex-wrap: wrap;
 }
 
 .col--numbers {
   width: 25%;
+  margin: 0 50px;
 }
 .col--howitworks {
   width: 20%;

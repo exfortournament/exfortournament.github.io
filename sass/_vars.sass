@@ -1,0 +1,17 @@
+\:root
+  --container-width: 1000px
+  --border-radius: 8px
+  --white: #FFFFFF
+  --black: #000000
+  --dark: #222328
+  --blue: #2F80ED
+  --blue-light: #EEF6FF
+  --grey-light: #FBFBFB
+  --grey-dark: #BFCAD8
+  --gradient-blue: linear-gradient(0deg, #2F80ED -57.22%, #4D99FF 154.05%)
+  --gradient-pink: linear-gradient(270deg, #BD00FF -26.43%, #FF008A 49.98%, #FFB03A 126.39%)
+
+@mixin m($width)
+  @if $width == xs
+    @media (max-width: 1200px)
+      @content

@@ -1,0 +1,332 @@
+html
+    block head
+        title Tournamet powered by exfor
+        meta(charset='UTF-8')
+        meta(name='viewport' content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0')
+        meta(http-equiv='X-UA-Compatible' content='ie=edge')
+        link(rel="stylesheet" href=`/css/main.css`)
+        link(rel='preconnect' href='https://fonts.googleapis.com')
+        link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+        link(href='https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap' rel='stylesheet')
+
+    body
+        div.app
+            div.noise
+            header.section.section--header
+                div.container.container--lg
+                    div.box.box--header
+                        a.link.link--header(href="#howitworks")
+                            | how it works
+                        a.link.link--header(href="#howitworks")
+                            | leaderboard
+                        a.link.link--header(href="#contactus")
+                            | contact us
+                        a.link.link--header(href="#contactus")
+                            | log in
+
+            section.section.section--hero
+                div.container.container--sm
+                    h1.text.text--hero-heading
+                        | THE SF PREMIER TRADING TOURNAMENT
+                    p.text.text--hero-subheading
+                        | POWERED BY EXFOR
+
+            section.section.section--form
+                div.container.container--sm
+                    div.anchor#contactus
+                    div.box.box--form
+                        div.box.box--submit
+                            div.box.box--inputs
+                                input.input.input--text(placeholder="name" type="text")
+                                input.input.input--text(placeholder="trading name" type="text")
+                                input.input.input--text(placeholder="email" type="email")
+                                input.input.input--text(placeholder="phone" type="number")
+                            button.input.input--button(type="submit")
+                                | Register
+                        div.box.box--radio
+                            input.input.input--checkbox(type="checkbox")
+                            p.text.text--checkbox
+                                | I accept the terms of the regulatory documents: Privacy Policy, Risk Notice.
+
+            section.section.section--numbers
+                div.container.container--md
+                    div.row
+                        div.col.col--numbers
+                            div.box.box--numbers
+                                h2.text.text--numbers-item-heading
+                                    | $25,000
+                                p.text.text--numbers-item-subheading
+                                    | VIRTUAL ACCOUNT
+                        div.col.col--numbers
+                            div.box.box--numbers
+                                h2.text.text--numbers-item-heading
+                                    | TOP 10 TRADERS
+                                p.text.text--numbers-item-subheading
+                                    | GUARANTEED A PRIZE
+                        div.col.col--numbers
+                            div.box.box--numbers
+                                h2.text.text--numbers-item-heading
+                                    | $1000
+                                p.text.text--numbers-item-subheading
+                                    | PRIZE MONEY
+                        div.col.col--numbers
+                            div.box.box--numbers
+                                h2.text.text--numbers-item-heading
+                                    | ONLY $98
+                                p.text.text--numbers-item-subheading
+                                    | TOURNAMENT ENTRY FEE
+
+            section.section.section--description
+                div.container.container--sm
+                    h2.text.text--description-heading
+                        | Are you ready to take your trading skills to the next level?
+                    p.text.text--description-subheading
+                        | Then join the $25,000 virtual trading tournament and you could win a prize of up to $1000! All you need to do is fill out the registration form and pay the $98 registration fee. Once you're registered, you'll gain access to a virtual account with $25,000 in virtual funds. Put your skills to the test and you could be one of the lucky 10 traders to receive a prize at the end of the tournament. Don't miss this chance to show off your trading expertise and win big!
+
+            section.section.section--howitworks
+                div.container.container--md
+                    div.anchor#howitworks
+                    h2.text.text--howitworks-heading
+                        | How it works?
+                    div.row.row--howitworks
+                        div.col.col--howitworks
+                            div.card.card--outline
+                                div.box.box--howitworks
+                                    h3.text.text--howitworks-item-heading
+                                        | #1
+                                    p.text.text--howitworks-item-subheading
+                                        | You enter the contest and follow the rules
+                        div.col.col--howitworks
+                            div.card.card--outline
+                                div.box.box--howitworks
+                                    h3.text.text--howitworks-item-heading
+                                        | #2
+                                    p.text.text--howitworks-item-subheading
+                                        | Traders must not exceed a 10% drawdown
+                        div.col.col--howitworks
+                            div.card.card--outline
+                                div.box.box--howitworks
+                                    h3.text.text--howitworks-item-heading
+                                        | #3
+                                    p.text.text--howitworks-item-subheading
+                                        | Traders must trade a minimum of 6 LOTS
+                        div.col.col--howitworks
+                            div.card.card--outline
+                                div.box.box--howitworks
+                                    h3.text.text--howitworks-item-heading
+                                        | #4
+                                    p.text.text--howitworks-item-subheading
+                                        | Tournament duration 30days
+                        div.col.col--howitworks
+                            div.card.card--outline
+                                div.box.box--howitworks
+                                    h3.text.text--howitworks-item-heading
+                                        | #5
+                                    p.text.text--howitworks-item-subheading
+                                        | The tournament will commence once a minimum of 20 traders have registered
+
+
+            section.section.section--features
+                div.container.container--sm
+                    h2.text.text--features-heading
+                        | Features of the Tournament
+                    div.row.row--features
+                        div.col.col--features
+                            div.card.card--background
+                                div.box.box--features
+                                    h3.text.text--features-item-heading
+                                        | Learn 2 Earn!
+                                    p.text.text--features-item-subheading
+                                        | There is still a chance for you to win prizes even if you do not make profit during the tournament.
+                                    p.text.text--features-item-subheading
+                                        | Regardless of whether or not you achieve any particular target, you will still have the opportunity to win prizes
+                        div.col.col--features
+                            div.card.card--background
+                                div.box.box--features
+                                    h3.text.text--features-item-heading
+                                        | Trade larger capital
+                                    p.text.text--features-item-subheading
+                                        | As a result of participating in the tournament traders will have the opportunity to gain experience dealing with large amounts of capital
+                        div.col.col--features
+                            div.card.card--background
+                                div.box.box--features
+                                    h3.text.text--features-item-heading
+                                        | Dedicated support team
+                                    p.text.text--features-item-subheading
+                                        | Both simply forex and exfor resources provide access to a dedicated support team and trading resources
+
+            section.section.section--prizes
+                div.container.container--sm
+                    h2.text.text--prizes-heading
+                        | Simply Forex Trading Tournament Prizes
+                    div.row.row--prizes
+                        div.col.col--prizes
+                            div.box.box--prizes
+                                h3.circle.circle--standard
+                                    | 1
+                                div.box--prizes-text
+                                    p.text.text--prizes-small
+                                        | 1st place
+                                    p.text.text--prizes-item-heading
+                                        | $500
+                                    p.text.text--prizes-subheading
+                                        | cash prize
+                        div.col.col--prizes
+                            div.box.box--prizes
+                                h3.circle.circle--standard
+                                    | 2
+                                div.box--prizes-text
+                                    p.text.text--prizes-small
+                                        | 2nd place
+                                    p.text.text--prizes-item-heading
+                                        | $300
+                                    p.text.text--prizes-subheading
+                                        | cash prize
+                        div.col.col--prizes
+                            div.box.box--prizes
+                                h3.circle.circle--standard
+                                    | 3
+                                div.box--prizes-text
+                                    p.text.text--prizes-small
+                                        | 3rd place
+                                    p.text.text--prizes-item-heading
+                                        | $200
+                                    p.text.text--prizes-subheading
+                                        | cash prize
+                        div.col.col--prizes
+                            div.box.box--prizes
+                                h3.circle.circle--standard
+                                    | 4
+                                div.box--prizes-text
+                                    p.text.text--prizes-small
+                                        | 4th place
+                                    p.text.text--prizes-item-heading
+                                        | $100
+                                    p.text.text--prizes-subheading
+                                        | exfor credit
+                        div.col.col--prizes
+                            div.box.box--prizes
+                                h3.circle.circle--standard
+                                    | 5
+                                div.box--prizes-text
+                                    p.text.text--prizes-small
+                                        | 5th place
+                                    p.text.text--prizes-item-heading
+                                        | $100
+                                    p.text.text--prizes-subheading
+                                        | exfor credit
+                        div.col.col--prizes
+                            div.box.box--prizes
+                                h3.circle.circle--standard
+                                    | 6
+                                div.box--prizes-text
+                                    p.text.text--prizes-small
+                                        | 6th place
+                                    p.text.text--prizes-item-heading
+                                        | $100
+                                    p.text.text--prizes-subheading
+                                        | exfor credit
+                        div.col.col--prizes
+                            div.box.box--prizes
+                                h3.circle.circle--standard
+                                    | 7
+                                div.box--prizes-text
+                                    p.text.text--prizes-small
+                                        | 7th place
+                                    p.text.text--prizes-item-heading
+                                        | $82
+                                    p.text.text--prizes-subheading
+                                        | VIP DISCORD
+                        div.col.col--prizes
+                            div.box.box--prizes
+                                h3.circle.circle--standard
+                                    | 8
+                                div.box--prizes-text
+                                    p.text.text--prizes-small
+                                        | 8th place
+                                    p.text.text--prizes-item-heading
+                                        | $82
+                                    p.text.text--prizes-subheading
+                                        | VIP DISCORD
+                        div.col.col--prizes
+                            div.box.box--prizes
+                                h3.circle.circle--standard
+                                    | 9
+                                div.box--prizes-text
+                                    p.text.text--prizes-small
+                                        | 9th place
+                                    p.text.text--prizes-item-heading
+                                        | $29
+                                    p.text.text--prizes-subheading
+                                        | VIP DISCORD
+                        div.col.col--prizes
+                            div.box.box--prizes
+                                h3.circle.circle--standard
+                                    | 10
+                                div.box--prizes-text
+                                    p.text.text--prizes-small
+                                        | 10th place
+                                    p.text.text--prizes-item-heading
+                                        | $29
+                                    p.text.text--prizes-subheading
+                                        | VIP DISCORD
+
+            section.section.section--accordeon
+                div.container.container--sm
+                    h2.text.text--accordeon-heading
+                        | Conditions and important information
+                    div.box.box--accordeon-item
+                        div.box.box--accordeon-visible-part
+                            div.circle.circle--small
+                                div.img.img--plus
+                            h3.text.text--accordeon-item-heading
+                                | Conditions
+                        div.box.box--accordeon-invisible-part
+                            p.text.text--accordeon-item-subheading
+                                | As a result of participating in the tournament traders will have the opportunity to gain experience dealing with large amounts of capital
+                    div.box.box--accordeon-item
+                        div.box.box--accordeon-visible-part
+                            div.circle.circle--small
+                                div.img.img--plus
+                            h3.text.text--accordeon-item-heading
+                                | Cost of participation in the contest
+                        div.box.box--accordeon-invisible-part
+                            p.text.text--accordeon-item-subheading
+                                | As a result of participating in the tournament traders will have the opportunity to gain experience dealing with large amounts of capital
+                    div.box.box--accordeon-item
+                        div.box.box--accordeon-visible-part
+                            div.circle.circle--small
+                                div.img.img--plus
+                            h3.text.text--accordeon-item-heading
+                                | Prizes
+                        div.box.box--accordeon-invisible-part
+                            p.text.text--accordeon-item-subheading
+                                | As a result of participating in the tournament traders will have the opportunity to gain experience dealing with large amounts of capital
+                    div.box.box--accordeon-item
+                        div.box.box--accordeon-visible-part
+                            div.circle.circle--small
+                                div.img.img--plus
+                            h3.text.text--accordeon-item-heading
+                                | Procedure for determining the winner
+                        div.box.box--accordeon-invisible-part
+                            p.text.text--accordeon-item-subheading
+                                | As a result of participating in the tournament traders will have the opportunity to gain experience dealing with large amounts of capital
+                    div.box.box--accordeon-item
+                        div.box.box--accordeon-visible-part
+                            div.circle.circle--small
+                                div.img.img--plus
+                            h3.text.text--accordeon-item-heading
+                                | Where to follow the contest
+                        div.box.box--accordeon-invisible-part
+                            p.text.text--accordeon-item-subheading
+                                | As a result of participating in the tournament traders will have the opportunity to gain experience dealing with large amounts of capital
+                    div.box.box--accordeon-item
+                        div.box.box--accordeon-visible-part
+                            div.circle.circle--small
+                                div.img.img--plus
+                            h3.text.text--accordeon-item-heading
+                                | How to confirm participation
+                        div.box.box--accordeon-invisible-part
+                            p.text.text--accordeon-item-subheading
+                                | As a result of participating in the tournament traders will have the opportunity to gain experience dealing with large amounts of capital
+        script(src="/js/accordeon.js")

@@ -471,6 +471,7 @@ button {
 }
 .col--features {
   width: 33.3333333333%;
+  display: flex;
 }
 @media (max-width: 767px) {
   .col--features {

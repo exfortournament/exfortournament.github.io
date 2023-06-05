@@ -68,9 +68,14 @@
     & > *
       cursor: pointer
   &--accordeon-invisible-part
-    display: none
+    opacity: 0
+    height: 0
+    transform: translateY(-20%)
     &.isVisible
-      display: flex
+      transition: opacity ease-in-out 300ms, transform ease-in-out 300ms
+      opacity: 1
+      height: auto
+      transform: translateY(0)
   &--hamburger
     width: 33px
     flex-wrap: wrap
